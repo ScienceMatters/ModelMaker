@@ -1,27 +1,30 @@
-# ModelMaker / varianttool
+# ModelMaker
 
-A small Python package for mapping human disease variants onto orthologous zebrafish proteins, then scoring whether an exact or nearby conserved site is a plausible modeling target.
+ModelMaker is an open-source platform for translating human disease variants into experimentally actionable animal models.
 
-## Example files
+Current capabilities
 
-- `examples/targets.csv` — human/zebrafish ortholog targets
-- `examples/variants.csv` — mutation list
-- `examples/cms_example.csv` — single-target CMS example
+✓ Ortholog identification
 
-## Multi-target mapping
+✓ Protein alignment
 
-```bash
-varianttool map --targets examples/targets.csv --variants examples/variants.csv --outdir out
-```
+✓ Residue mapping
 
-This writes a combined `variant_map.csv` plus per-target alignment files in `out/<gene>/`.
+✓ Mature/canonical numbering
 
-## Single-target mapping
+✓ Nearby functional residue identification
 
-```bash
-varianttool map --human P02708 --zfish "gene:chrna1 AND organism_id:7955" --mutations examples/cms_example.csv --outdir out
-```
+In development
 
-## Nearby functional-site logic
+□ Base editing
+
+□ Prime editing
+
+□ Structural annotation
+
+□ Model suitability scoring
+
+□ Report generation
+
 
 For residues that are not perfectly conserved, ModelMaker searches a local window around the target site for the nearest conserved aligned residue and reports it as a nearby functional-site candidate.
