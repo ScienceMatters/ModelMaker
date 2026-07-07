@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+varianttool/varianttool.egg-info/PKG-INFO
+varianttool/varianttool.egg-info/SOURCES.txt
+varianttool/varianttool.egg-info/dependency_links.txt
+varianttool/varianttool.egg-info/entry_points.txt
+varianttool/varianttool.egg-info/requires.txt
+varianttool/varianttool.egg-info/top_level.txt

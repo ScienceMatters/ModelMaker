@@ -1,0 +1,7 @@
+[CHRNA1] CHRNA1  V188M    mature 188 canonical 208 align_col 208 human V -> zfish 208 V conserved=yes
+[CHRNA1] CHRNA1  V285I    mature 285 canonical 305 align_col 305 human V -> zfish 305 V conserved=yes
+[CHRNB1] CHRNB1  V266M    mature 266 canonical 289 align_col 296 human V -> zfish 279 V conserved=yes
+[CHRNE] CHRNE   W55R     mature 55 canonical 75 align_col 82 human W -> zfish 80 W conserved=yes
+[CHRNE] CHRNE   P121L    mature 121 canonical 141 align_col 148 human P -> zfish 146 P conserved=yes
+[CHRNE] CHRNE   D175N    mature 175 canonical 195 align_col 202 human D -> zfish 200 D conserved=yes
+[CHRNE] CHRNE   L269F    mature 269 canonical 289 align_col 296 human L -> zfish 294 L conserved=yes

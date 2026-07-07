@@ -1,0 +1,35 @@
+human            1 MTPGALLML------LGAL-GAPLAPGVRGSEAEGRLREKLFSGYDSSVRPAREVGDRVR    53
+                   |              |||  ||         | |  |  |||| | | |||||    || 
+zfish            1 MKAQDWIIITCCLCGLGAMTGA--------TEMEDKLMKKLFSAYNSKVRPARNPEERVV    52
+
+human           54 VSVGLILAQLISLNEKDEEMSTKVYLDLEWTDYRLSWDPAEHDGIDSLRITAESVWLPDV   113
+                   |  | ||    ||| ||||| | |   ||| |||||| |    | | |||    ||||| 
+zfish           53 VRIGMILSSFVSLNMKDEEMNTIVMMNLEWNDYRLSWNPKDYGGVDVLRISSGKVWLPDI   112
+
+human          114 VLLNNNDGNFDVALDISVVVSSDGSVRWQPPGIYRSSCSIQVTYFPFDWQNCTMVFSSYS   173
+                   || ||||| | |||   |   | | | | ||  | |||   ||||||||||||||| || 
+zfish          113 VLINNNDGVFGVALQVHVQAYSNGRVTWTPPALYKSSCGVKVTYFPFDWQNCTMVFRSYT   172
+
+human          174 YDSSEVSLQTGLGPDGQGHQEIHIHEGTFIENGQWEIIHKPSRLIQPPGDPRGGREGQRQ   233
+                   |||||| ||  |   |    ||    | | | | | | || ||           ||    
+zfish          173 YDSSEVDLQHALDKRGKEIKEIILDTG-FSESGEWHIRHKVSR--------KNVREDLYE   223
+
+human          234 EVIFYLIIRRKPLFYLVNVIAPCILITLLAIFVFYLPPDAGEKMGLSIFALLTLTVFLLL   293
+                      ||||| ||| || ||   ||||||  ||| |||||||||||||||  ||||||||||
+zfish          224 DITFYLIIERKPMFYVVNIVLPCILITIIAIFNFYLPPDAGEKMGLSINVLLTLTVFLLL   283
+
+human          294 LADKVPETSLSVPIIIKYLMFTMVLVTFSVILSVVVLNLHHRSPHTHQMPLWVRQIFIHK   353
+                   || | ||||| ||||  ||| || |||||||||||||||||||| ||||||||| |||| 
+zfish          284 LANKIPETSLGVPIIVNYLMITMILVTFSVILSVVVLNLHHRSPNTHQMPLWVRKIFIHM   343
+
+human          354 LPLYLRLKRPKPERDLMPEPPHCSSPGSGWGRGTDEYFIRKPPS-DFLFPKPNRFQPELS   412
+                   || ||   ||| |  |  | |          |  ||||||||    |||||| | ||   
+zfish          344 LPPYLGMLRPKVETPLFLEKPAKKENIQAINRVADEYFIRKPSNMNFLFPKPHRYQPDGQ   403
+
+human          413 APDLRRFIDGPNRAVALLPELREVVSSISYIARQLQEQEDHDALKEDWQFVAMVVDRLFL   472
+                     ||| |||||     | |||   |  | ||| |||   |  ||||||| |||| |||||
+zfish          404 CTDLRKFIDGPSHYLTLPPELKTAVEAITYIAEQLQAEKDYEALKEDWQYVAMVADRLFL   463
+
+human          473 WTFIIFTSVGTLVIFLDATYHLPPPDPFP   501
+                   | | |||  ||| || ||     | ||||
+zfish          464 WIFVIFTTLGTLGIFTDASFNATPTDPFP   492

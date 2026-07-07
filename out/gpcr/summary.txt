@@ -1,0 +1,10 @@
+[HTR2A] HTR2A   W151A    mature 151 canonical 151 align_col 151 human W -> zfish 2 W conserved=yes
+[HTR2A] HTR2A   D155A    mature 155 canonical 155 align_col 155 human D -> zfish 6 D conserved=yes
+[HTR2A] HTR2A   L229A    mature 229 canonical 229 align_col 229 human L -> zfish 80 L conserved=yes
+[HTR2A] HTR2A   S239A    mature 239 canonical 239 align_col 239 human S -> zfish 90 S conserved=yes
+[HTR2A] HTR2A   V471A    mature 471 canonical 471 align_col 485 human V -> zfish 323 L conserved=no | nearby 470 C -> 322 C
+[HTR2A] HTR2A   W151A    mature 151 canonical 151 align_col 165 human W -> zfish 138 W conserved=yes
+[HTR2A] HTR2A   D155A    mature 155 canonical 155 align_col 169 human D -> zfish 142 D conserved=yes
+[HTR2A] HTR2A   L229A    mature 229 canonical 229 align_col 243 human L -> zfish 216 L conserved=yes
+[HTR2A] HTR2A   S239A    mature 239 canonical 239 align_col 253 human S -> zfish 226 S conserved=yes
+[HTR2A] HTR2A   V471A    mature 471 canonical 471 align_col 494 human V -> zfish 458 L conserved=no | nearby 469 S -> 456 S

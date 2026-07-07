@@ -1,0 +1,5 @@
+gene,mutation,reported_position,numbering_offset,human_mature_position,human_canonical_position,alignment_column,human_residue,zfish_position,zfish_residue,human_header_gene,zfish_header_gene,conserved,nearby_functional_site_found,nearby_functional_site_within_window,nearby_functional_site_human_position,nearby_functional_site_zfish_position,nearby_functional_site_alignment_column,nearby_functional_site_human_residue,nearby_functional_site_zfish_residue,nearby_functional_site_distance,nearby_functional_site_side,nearby_functional_site_note
+SLC6A1,R44Q,44,0,44,44,44,R,43,R,SLC6A1,slc6a1a,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
+SLC6A1,F270S,270,0,270,270,270,F,269,F,SLC6A1,slc6a1a,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
+SLC6A1,R44Q,44,0,44,44,44,R,43,R,SLC6A1,slc6a1b,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
+SLC6A1,F270S,270,0,270,270,270,F,269,F,SLC6A1,slc6a1b,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.

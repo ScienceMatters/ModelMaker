@@ -1,0 +1,4 @@
+gene,human,zfish
+CHRNA1,P02708,gene:chrna1 AND organism_id:7955
+CHRNB1,P11230,gene:chrnb1 AND organism_id:7955
+CHRNE,Q04844,gene:chrne AND organism_id:7955

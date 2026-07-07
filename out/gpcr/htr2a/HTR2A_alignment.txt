@@ -1,0 +1,35 @@
+human            1 MDILCEENTSLSSTTNSLMQLNDDTRLYSNDF--------------NSGEANTSDAFNWT    46
+                   |         |  |   |  |       | |               ||   | |      
+zfish            1 M--------ALNGTAAELRSLGISAEI-SKDTSMEQKVSLGNAVLNNSMDCNGS------    45
+
+human           47 VDSENRTNLSCEGCLSPSCLSLLHLQEKNWSALLTAVVIILTIAGNILVIMAVSLEKKLQ   106
+                       ||   |                 ||| |||   ||| |  |||||||||||| |||
+zfish           46 -EERNRSEFSSSDYV-----------QKNWVALLISLVIIITVTGNILVIMAVSLERKLQ    93
+
+human          107 NATNYFLMSLAIADMLLGFLVMPVSMLTILYGYRWPLPSKLCAVWIYLDVLFSTASIMHL   166
+                   ||||||| |||| ||||| ||||| | |||||| ||||  ||  ||||||||||||||||
+zfish           94 NATNYFLRSLAITDMLLGILVMPVAMVTILYGYTWPLPRTLCPIWIYLDVLFSTASIMHL   153
+
+human          167 CAISLDRYVAIQNPIHHSRFNSRTKAFLKIIAVWTISVGISMPIPVFGLQDDSKVFKEGS   226
+                   |||||||| || ||||||| || |||  |||| ||||| |||| || || | ||||   |
+zfish          154 CAISLDRYIAIRNPIHHSRSNSLTKARVKIIAAWTISVVISMPVPVLGLHDHSKVFRNES   213
+
+human          227 CLLADDNFVLIGSFVSFFIPLTIMVITYFLTIKSLQKEATLCVSDLGTRAKLAS-FSFLP   285
+                   | | | ||||||||| || || ||| ||||||  || |||||   |  |    |    ||
+zfish          214 CQLTDNNFVLIGSFVAFFVPLIIMVVTYFLTISALQSEATLCLDQLIVRPTWSSTIGLLP   273
+
+human          286 QSSLSSEKLFQR-SIHREPGSY-TGRRTMQSISNEQKACKVLGIVFFLFVVMWCPFFITN   343
+                     | ||| || | || ||  |   ||| |||||||||| |||| || ||| |||||| ||
+zfish          274 RGSVSSERLFSRSSICREGASRGSGRRSMQSISNEQKASKVLGVVFLLFVIMWCPFFVTN   333
+
+human          344 IMAVICKESCNEDVIGALLNVFVWIGYLSSAVNPLVYTLFNKTYRSAFSRYIQCQYKENK   403
+                    ||| |   | ||  | | ||||| |||||||||  ||||||||| || || || | |  
+zfish          334 VMAVVCGSVCDEDLVGGLMNVFVWVGYLSSAVNPFIYTLFNKTYRAAFARYMQCRYHEER   393
+
+human          404 KPLQLILVNTIPALAYKSSQL------QMGQKKNSKQDAKTTDNDCSMVALGKQHSEEAS   457
+                    ||||||||||| ||| || |          |         |    |            |
+zfish          394 RPLQLILVNTIPPLAYSSSGLPLKVENSLRRKAEGSRSGSFTNTERSIC---------GS   444
+
+human          458 KDNSDGVNEKVSCV   471
+                     |     | ||  
+zfish          445 TQNKQERDEVVSHL   458
