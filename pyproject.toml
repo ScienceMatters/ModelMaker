@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "varianttool"
-version = "0.1.0"
+name = "modelmaker"
+version = "0.3.0-alpha"
 description = "Variant-to-model mapping, editability scoring, and guide design for orthologous disease models"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -14,10 +14,10 @@ dependencies = [
 ]
 
 [project.scripts]
-varianttool = "varianttool.cli:main"
+modelmaker = "modelmaker.cli:main"
 
 [tool.setuptools]
-package-dir = {"" = "varianttool"}
+package-dir = {"" = "."}
 
 [tool.setuptools.packages.find]
-where = ["varianttool"]
+where = ["."]

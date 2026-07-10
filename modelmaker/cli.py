@@ -141,7 +141,7 @@ def cmd_design_base(args: argparse.Namespace) -> int:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="varianttool")
+    p = argparse.ArgumentParser(prog="modelmaker")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     m = sub.add_parser("map", help="Download proteins, align orthologs, and map residues")

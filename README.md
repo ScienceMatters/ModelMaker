@@ -1,4 +1,4 @@
-# ModelMaker / varianttool
+# ModelMaker / modelmaker
 
 A small Python package for mapping human disease variants onto orthologous zebrafish proteins, then scoring whether an exact or nearby conserved site is a plausible modeling target.
 
@@ -11,7 +11,7 @@ A small Python package for mapping human disease variants onto orthologous zebra
 ## Multi-target mapping
 
 ```bash
-varianttool map --targets examples/targets.csv --variants examples/variants.csv --outdir out
+modelmaker map --targets examples/targets.csv --variants examples/variants.csv --outdir out
 ```
 
 This writes a combined `variant_map.csv` plus per-target alignment files in `out/<gene>/`.
@@ -19,7 +19,7 @@ This writes a combined `variant_map.csv` plus per-target alignment files in `out
 ## Single-target mapping
 
 ```bash
-varianttool map --human P02708 --zfish "gene:chrna1 AND organism_id:7955" --mutations examples/cms_example.csv --outdir out
+modelmaker map --human P02708 --zfish "gene:chrna1 AND organism_id:7955" --mutations examples/cms_example.csv --outdir out
 ```
 
 ## Nearby functional-site logic

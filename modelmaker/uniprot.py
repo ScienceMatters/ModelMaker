@@ -31,7 +31,7 @@ def _fetch_text(source: str, timeout: int = 45) -> tuple[str, str]:
         url = FASTA_BASE.format(source=source)
     else:
         url = STREAM_BASE.format(query=quote(source, safe=""))
-    r = requests.get(url, timeout=timeout, headers={"User-Agent": "varianttool/0.1.0"})
+    r = requests.get(url, timeout=timeout, headers={"User-Agent": "modelmaker/0.1.0"})
     r.raise_for_status()
     return r.text, url
 
