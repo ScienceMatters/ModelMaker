@@ -1,4 +1,0 @@
-[SLC6A1] SLC6A1  R44Q     mature 44 canonical 44 align_col 44 human R -> zfish 43 R conserved=yes
-[SLC6A1] SLC6A1  F270S    mature 270 canonical 270 align_col 270 human F -> zfish 269 F conserved=yes
-[SLC6A1] SLC6A1  R44Q     mature 44 canonical 44 align_col 44 human R -> zfish 43 R conserved=yes
-[SLC6A1] SLC6A1  F270S    mature 270 canonical 270 align_col 270 human F -> zfish 269 F conserved=yes

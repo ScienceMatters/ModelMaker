@@ -1,8 +1,0 @@
-gene,mutation,reported_position,numbering_offset,human_mature_position,human_canonical_position,alignment_column,human_residue,zfish_position,zfish_residue,human_header_gene,zfish_header_gene,conserved,nearby_functional_site_found,nearby_functional_site_within_window,nearby_functional_site_human_position,nearby_functional_site_zfish_position,nearby_functional_site_alignment_column,nearby_functional_site_human_residue,nearby_functional_site_zfish_residue,nearby_functional_site_distance,nearby_functional_site_side,nearby_functional_site_note
-CHRNA1,V188M,188,20,188,208,208,V,208,V,CHRNA1,chrna1,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
-CHRNA1,V285I,285,20,285,305,305,V,305,V,CHRNA1,chrna1,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
-CHRNB1,V266M,266,23,266,289,296,V,279,V,CHRNB1,chrnb1,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
-CHRNE,W55R,55,20,55,75,82,W,80,W,CHRNE,chrne,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
-CHRNE,P121L,121,20,121,141,148,P,146,P,CHRNE,chrne,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
-CHRNE,D175N,175,20,175,195,202,D,200,D,CHRNE,chrne,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
-CHRNE,L269F,269,20,269,289,296,L,294,L,CHRNE,chrne,yes,no,no,,,,,,,,Exact residue conserved; no nearby-site search needed.
