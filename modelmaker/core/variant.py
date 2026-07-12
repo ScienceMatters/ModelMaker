@@ -16,19 +16,14 @@ from uuid import UUID, uuid4
 # ---------------------------------------------------------------------
 # Base classes
 # ---------------------------------------------------------------------
-
 @dataclass
 class EvidenceContainer:
     """
     Base class for biological knowledge.
-
-    Every inference should include:
-      - confidence
-      - evidence supporting the inference
-      - provenance (filled by future plugins)
     """
 
     confidence: float | None = None
+
     evidence: list[str] = field(default_factory=list)
 
 
@@ -89,7 +84,18 @@ class VariantInput:
 
 @dataclass
 class OrthologyInfo(EvidenceContainer):
-    """Orthology relationships."""
+    """
+    Orthology relationship between the human gene and the model organism.
+    """
+
+    human_gene: str | None = None
+    model_gene: str | None = None
+
+    human_accession: str | None = None
+    model_query: str | None = None
+
+    identity: float | None = None
+    similarity: float | None = None
 
 
 @dataclass

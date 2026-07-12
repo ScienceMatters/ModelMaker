@@ -14,3 +14,10 @@ The project follows Semantic Versioning where practical.
 - Nearby functional residue search
 - Initial editing prototype
 
+## [0.3.0-alpha]
+
+### Added
+
+- Introduced Variant Engine
+- Added OrthologyPlugin
+- First plugin to enrich Variant with biological knowledge
