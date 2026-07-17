@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, asdict
+from dataclasses import asdict, dataclass, field
 from typing import Any, Dict, List, Optional
 
 
@@ -56,6 +56,43 @@ class AlignmentResult:
     identity: float
     similarity: float
     gaps: float
+
+
+@dataclass(frozen=True)
+class ProteinInfo:
+    """Core protein-level object for ModelMaker.
+
+    ProteinInfo is intended to represent information intrinsic to a protein
+    sequence, while remaining independent from genome-editing or variant design
+    logic.
+    """
+
+    protein_id: str
+    gene_symbol: Optional[str] = None
+    species: Optional[str] = None
+    sequence: Optional[str] = None
+
+    # Alignment / similarity metadata
+    best_match_id: Optional[str] = None
+    percent_identity: Optional[float] = None
+    alignment_coverage: Optional[float] = None
+    evalue: Optional[float] = None
+    similarity: Optional[float] = None
+    gaps: Optional[float] = None
+    alignment_score: Optional[float] = None
+    aligned_sequence: Optional[str] = None
+
+    # Basic biology annotations
+    domains: List[str] = field(default_factory=list)
+    motifs: List[str] = field(default_factory=list)
+    biological_role: Optional[str] = None
+
+    # Provenance / bookkeeping
+    source: Optional[str] = None
+    notes: Optional[str] = None
+
+    def to_dict(self) -> Dict[str, Any]:
+        return asdict(self)
 
 
 @dataclass(frozen=True)

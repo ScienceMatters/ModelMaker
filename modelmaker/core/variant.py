@@ -101,17 +101,18 @@ class OrthologyInfo(EvidenceContainer):
 @dataclass
 class GeneFamily(EvidenceContainer):
     """
-    Represents a gene family and its known members.
-
-    Useful for paralogs, duplicated genes, and protein families
-    where multiple potential model genes exist.
+    Gene family context for model selection.
     """
 
     family_name: str | None = None
 
     human_gene: str | None = None
 
+    model_species: str | None = None
+
     members: list[str] = field(default_factory=list)
+
+    preferred_member: str | None = None
 
     notes: str | None = None
 
@@ -131,25 +132,24 @@ class ExpressionProfile(EvidenceContainer):
 @dataclass
 class ModelCandidate(EvidenceContainer):
     """
-    Best candidate experimental model for the human variant.
+    Recommended experimental model.
     """
 
     species: str | None = None
 
     gene: str | None = None
 
-    protein: str | None = None
-
     transcript: str | None = None
 
-    orthology_score: float | None = None
+    protein_id: str | None = None
 
-    residue_match: bool | None = None
+    selection_score: float | None = None
+
+    residue_conserved: bool | None = None
+
+    expression_supported: bool | None = None
 
     rationale: list[str] = field(default_factory=list)
-
-    expression: ExpressionProfile | None = None
-
 
 @dataclass
 class ProteinInfo(EvidenceContainer):

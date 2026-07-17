@@ -29,3 +29,6 @@ reports/
 cache/
 *.html
 *.pdf
+
+sandbox/*
+!sandbox/.gitkeep
