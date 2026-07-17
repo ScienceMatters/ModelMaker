@@ -99,8 +99,71 @@ class OrthologyInfo(EvidenceContainer):
 
 
 @dataclass
+class GeneFamily(EvidenceContainer):
+    """
+    Represents a gene family and its known members.
+
+    Useful for paralogs, duplicated genes, and protein families
+    where multiple potential model genes exist.
+    """
+
+    family_name: str | None = None
+
+    human_gene: str | None = None
+
+    members: list[str] = field(default_factory=list)
+
+    notes: str | None = None
+
+@dataclass
+class ExpressionProfile(EvidenceContainer):
+    """
+    Tissue and developmental expression profile.
+    """
+
+    tissues: list[str] = field(default_factory=list)
+
+    developmental_stages: list[str] = field(default_factory=list)
+
+    source: str | None = None
+
+
+@dataclass
+class ModelCandidate(EvidenceContainer):
+    """
+    Best candidate experimental model for the human variant.
+    """
+
+    species: str | None = None
+
+    gene: str | None = None
+
+    protein: str | None = None
+
+    transcript: str | None = None
+
+    orthology_score: float | None = None
+
+    residue_match: bool | None = None
+
+    rationale: list[str] = field(default_factory=list)
+
+    expression: ExpressionProfile | None = None
+
+
+@dataclass
 class ProteinInfo(EvidenceContainer):
-    """Protein-level mapping."""
+    """
+    Protein-level alignment and residue mapping.
+    """
+
+    aligned_human: str | None = None
+    aligned_model: str | None = None
+
+    alignment_score: float | None = None
+    similarity: float | None = None
+    gaps: float | None = None
+    identity: float | None = None
 
 
 @dataclass
@@ -143,6 +206,8 @@ class Variant:
     metadata: Metadata = field(default_factory=Metadata)
 
     orthology: OrthologyInfo | None = None
+    gene_family: GeneFamily | None = None
+    model: ModelCandidate | None = None
     protein: ProteinInfo | None = None
     genome: GenomeInfo | None = None
     annotation: AnnotationInfo | None = None

@@ -6,6 +6,7 @@ Wraps the existing orthology/alignment engine and enriches a Variant.
 from modelmaker.core.variant import OrthologyInfo
 from modelmaker.align import align_proteins
 from modelmaker.core.plugin import Plugin
+from modelmaker.core.variant import ProteinInfo
 
 
 class OrthologyPlugin(Plugin):
@@ -45,5 +46,17 @@ class OrthologyPlugin(Plugin):
         variant.metadata.history.append(
             "Orthology completed."
         )
+        variant.protein = ProteinInfo(
+            aligned_human=alignment.aligned_human,
+            aligned_model=alignment.aligned_zfish,
+            alignment_score=alignment.score,
+            identity=alignment.identity,
+            similarity=alignment.similarity,
+            gaps=alignment.gaps,
+            confidence=alignment.identity,
+            evidence=[
+                "Protein alignment completed using legacy aligner."
+            ],
+        )   
 
         return variant
