@@ -1,7 +1,7 @@
 # ModelMaker
 
 ModelMaker is an open-source platform for translating human disease variants into experimentally actionable animal models.
-
+ModelMaker is a biological reasoning engine that constructs, evaluates, and justifies experimental disease models.
 Current capabilities
 
 ✓ Ortholog identification
