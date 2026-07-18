@@ -154,16 +154,45 @@ class ModelCandidate(EvidenceContainer):
 @dataclass
 class ProteinInfo(EvidenceContainer):
     """
-    Protein-level alignment and residue mapping.
+    Intrinsic properties of the selected model protein.
     """
+
+    protein_id: str | None = None
+    gene_symbol: str | None = None
+    species: str | None = None
+
+    sequence: str | None = None
+    length: int | None = None
+
+    domains: list[str] = field(default_factory=list)
+    motifs: list[str] = field(default_factory=list)
+
+    signal_peptide: str | None = None
+    transmembrane_helices: list[tuple[int, int]] = field(default_factory=list)
+    functional_sites: list[str] = field(default_factory=list)
+    isoforms: list[str] = field(default_factory=list)
+
+    source: str | None = None
+
+@dataclass
+class AlignmentInfo(EvidenceContainer):
+    """
+    Pairwise protein alignment between the human protein and the model protein.
+    """
+
+    human_protein_id: str | None = None
+    model_protein_id: str | None = None
+
+    human_sequence: str | None = None
+    model_sequence: str | None = None
 
     aligned_human: str | None = None
     aligned_model: str | None = None
 
-    alignment_score: float | None = None
-    similarity: float | None = None
-    gaps: float | None = None
     identity: float | None = None
+    similarity: float | None = None
+    alignment_score: float | None = None
+    gaps: float | None = None
 
 
 @dataclass
@@ -209,6 +238,7 @@ class Variant:
     gene_family: GeneFamily | None = None
     model: ModelCandidate | None = None
     protein: ProteinInfo | None = None
+    alignment: AlignmentInfo | None = None
     genome: GenomeInfo | None = None
     annotation: AnnotationInfo | None = None
     editing: EditingInfo | None = None
