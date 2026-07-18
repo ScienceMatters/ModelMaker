@@ -202,8 +202,31 @@ class GenomeInfo(EvidenceContainer):
 
 @dataclass
 class AnnotationInfo(EvidenceContainer):
-    """Biological annotation."""
+    """
+    Functional annotation of the selected protein.
+    """
 
+    protein_name: str | None = None
+
+    function: str | None = None
+
+    subcellular_location: str | None = None
+
+    domains: list[str] = field(default_factory=list)
+
+    motifs: list[str] = field(default_factory=list)
+
+    transmembrane_regions: list[tuple[int, int]] = field(default_factory=list)
+
+    signal_peptide: tuple[int, int] | None = None
+
+    functional_sites: list[str] = field(default_factory=list)
+
+    ptms: list[str] = field(default_factory=list)
+
+    disease_annotations: list[str] = field(default_factory=list)
+
+    source: str | None = None
 
 @dataclass
 class EditingInfo(EvidenceContainer):
